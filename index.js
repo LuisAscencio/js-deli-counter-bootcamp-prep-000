@@ -6,15 +6,15 @@ function takeANumber (katzDeliLine, number){
 
 var array = []
 
-takeANumber(array) // => Welcome, you are number 1
-takeANumber(array) // => Welcome, you are number 2
-takeANumber(array) // => Welcome, you are number 3
+takeANumber(array, 1) // => Welcome, you are number 1
+takeANumber(array, 2) // => Welcome, you are number 2
+takeANumber(array, 3) // => Welcome, you are number 3
 console.log(currentLine(array)) // => The line is currently: 1. 1, 2. 2, 3. 3
 
 nowServing(array) // => Currently serving 1.
 nowServing(array) // => Currently serving 2.
 
-takeANumber(array) // => Welcome, you are number 4
+takeANumber(array, 4) // => Welcome, you are number 4
 
 
 
