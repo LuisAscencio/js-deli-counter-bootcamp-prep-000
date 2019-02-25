@@ -5,22 +5,21 @@ function takeANumber (katzDeliLine, name){
 }
 
 var array = ["Katie", "Luis", "Johann"]
-
 takeANumber(array, "Steven") // => Welcome, Steven. You are number 4 in line.
 
 function nowServing (katzDeliLine){
   
   var name
   
-  if (katzDeliLine.length=== 0){
+  if (katzDeliLine.length === 0){
     return "There is nobody waiting to be served!"
-}
-    
-    name= katzDeliLine.shift()
-    
-    return "Currently serving "+ name + "."
-
   }
+    
+  name = katzDeliLine.shift()
+    
+  return "Currently serving "+ name + "."
+
+}
   
   
   
