@@ -5,7 +5,7 @@ function takeANumber (katzDeliLine, name){
 }
 
 var array = ["Katie", "Luis", "Johann"]
-
+currentLine(array) // => The line is currently 3
 takeANumber(array, "Steven") // => Welcome, Steven. You are number 4 in line.
 
 nowServing(array) // => Currently serving Katie.
@@ -30,12 +30,12 @@ function nowServing (katzDeliLine){
 }
 
 function currentLine(line){
-  if(line.length===0) {
+  if (line.length === 0) {
     return "The line is currently empty.";
   }
   var nLM = [];
   
-  for(var i=0; i<line.length; i++) {
+  for(var i=0; i < line.length; i++) {
     nLM.push(i+1 + ". "+ line[i]);
   }
   console.log("The line is currently: " + nLM);
