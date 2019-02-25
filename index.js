@@ -26,7 +26,7 @@ function nowServing (katzDeliLine){
   
   
   
-var Deli = [];
+
 
 function currentLine(line){
   if(!line.length) {
