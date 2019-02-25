@@ -1,5 +1,5 @@
 function takeANumber (katzDeliLine, number){
-  katzDeliLine.push("1")
+  katzDeliLine.push("hello")
   var position = katzDeliLine.length
   return "Welcome, you are number "+ position
 }
