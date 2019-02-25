@@ -14,9 +14,8 @@ console.log(currentLine(array)) // => The line is currently: 1. 1, 2. 2, 3. 3
 console.log(nowServing(array)) // => Currently serving 1.
 console.log(nowServing(array)) // => Currently serving 2.
 
-takeANumber(array, 4) // => Welcome, you are number 4
-
-
+console.log(takeANumber(array, 4)) // => Welcome, you are number 4
+console.log(currentLine(array))
 
 function nowServing (katzDeliLine){
   
