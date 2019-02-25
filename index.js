@@ -11,8 +11,8 @@ console.log(takeANumber(array, 2)) // => Welcome, you are number 2
 console.log(takeANumber(array, 3)) // => Welcome, you are number 3
 console.log(currentLine(array)) // => The line is currently: 1. 1, 2. 2, 3. 3
 
-nowServing(array) // => Currently serving 1.
-nowServing(array) // => Currently serving 2.
+console.log(nowServing(array)) // => Currently serving 1.
+console.log(nowServing(array)) // => Currently serving 2.
 
 takeANumber(array, 4) // => Welcome, you are number 4
 
