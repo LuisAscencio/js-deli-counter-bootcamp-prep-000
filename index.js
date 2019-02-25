@@ -6,11 +6,12 @@ function takeANumber (katzDeliLine, name){
 
 var array = ["Katie", "Luis", "Johann"]
 takeANumber(array, "Steven") // => Welcome, Steven. You are number 4 in line.
+
 nowServing(array) // => Currently serving Katie.
 nowServing(array) // => Currently serving Luis.
 nowServing(array) // => Currently serving Johann.
-nowServing(array) // => Currently serving .
-nowServing(array) // => Currently serving Katie.
+nowServing(array) // => There is nobody waiting to be served.
+
 
 function nowServing (katzDeliLine){
   
