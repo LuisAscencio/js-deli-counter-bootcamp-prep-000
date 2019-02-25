@@ -1,7 +1,6 @@
 function takeANumber (katzDeliLine, number){
   katzDeliLine.push(number)
-  var position = katzDeliLine.length
-  return "Welcome, you are number "+ position
+  return "Welcome, you are number "+ number
 }
 
 var array = []
