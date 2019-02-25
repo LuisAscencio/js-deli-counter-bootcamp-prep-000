@@ -1,11 +1,12 @@
 function takeANumber (katzDeliLine, name){
-  var position = katzDeliLine.length +  1
-  
   katzDeliLine.push(name)
-return "Welcome, " + name +". You are number "+ position +" in line."
-
+  var position = katzDeliLine.length +  1
+  return "Welcome, " + name +". You are number "+ position +" in line."
 }
 
+var array = ["Katie", "Luis", "Johann"]
+
+takeANumber(array, "Steven") // => Welcome, Steven. You are number 4 in line.
 
 function nowServing (katzDeliLine){
   
