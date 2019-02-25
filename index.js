@@ -5,7 +5,7 @@ function takeANumber (katzDeliLine, name){
 }
 
 var array = ["Katie", "Luis", "Johann"]
-currentLine(array) // => The line is currently 3
+console.log(currentLine(array)) // => The line is currently 3
 takeANumber(array, "Steven") // => Welcome, Steven. You are number 4 in line.
 
 nowServing(array) // => Currently serving Katie.
@@ -38,6 +38,6 @@ function currentLine(line){
   for(var i=0; i < line.length; i++) {
     nLM.push(i+1 + ". "+ line[i]);
   }
-  console.log("The line is currently: " + nLM);
+  // console.log("The line is currently: " + nLM);
   return "The line is currently: " + nLM.join(', ');
 }
