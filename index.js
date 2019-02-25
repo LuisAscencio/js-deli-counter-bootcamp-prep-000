@@ -5,7 +5,7 @@ function takeANumber (katzDeliLine, name){
 }
 
 var array = ["Katie", "Luis", "Johann"]
-console.log(currentLine(array)) // => The line is currently 3
+console.log(currentLine(array)) // => The line is currently: 1.
 takeANumber(array, "Steven") // => Welcome, Steven. You are number 4 in line.
 
 nowServing(array) // => Currently serving Katie.
