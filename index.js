@@ -12,6 +12,7 @@ nowServing(array) // => Currently serving Katie.
 console.log(currentLine(array)) // => The line is currently: 1. Luis, 2. Johann, 3. Steven
 nowServing(array) // => Currently serving Luis.
 nowServing(array) // => Currently serving Johann.
+console.log(currentLine(array)) // => The line is currently: 1. Steven
 nowServing(array) // => Currently serving Steven.
 nowServing(array) // => There is nobody waiting to be served.
 
