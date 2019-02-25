@@ -37,6 +37,6 @@ function currentLine(line){
   for(var i=0; i<line.length; i++) {
     nLM.push(i+1 + ". "+ line[i]);
   }
-  console.log("The line is currently: " + nLM)
+  console.log("The line is currently: " + nLM);
   return "The line is currently: " + nLM.join(', ');
 }
