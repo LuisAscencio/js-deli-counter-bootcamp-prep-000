@@ -9,8 +9,10 @@ var array = []
 takeANumber(array) // => Welcome, you are number 1
 takeANumber(array) // => Welcome, you are number 2
 takeANumber(array) // => Welcome, you are number 3
+currentLine(array) // => The line is currently: 1. 1, 2. 2, 3. 3
 
 nowServing(array) // => Currently serving 1.
+nowServing(array) // => Currently serving 2.
 
 takeANumber(array) // => Welcome, you are number 4
 
